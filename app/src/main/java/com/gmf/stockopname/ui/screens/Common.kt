@@ -23,6 +23,8 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import com.gmf.stockopname.data.STATUS_LABELS
 import com.gmf.stockopname.ui.theme.*
+import java.text.SimpleDateFormat
+import java.util.Locale
 
 @Composable
 fun TopHeader(
